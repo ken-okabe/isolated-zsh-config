@@ -40,6 +40,3 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#555555"
 alias dotnet=.net/dotnet
 alias @='cd ~/Documents/@shortcuts/ && ls -la -F --color=auto --group-directories-first'
 
-if [ -f /usr/share/nnn/quitcd/quitcd.bash_zsh ]; then
-    source /usr/share/nnn/quitcd/quitcd.bash_zsh
-fi
