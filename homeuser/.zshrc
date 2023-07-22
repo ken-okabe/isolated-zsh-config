@@ -17,13 +17,12 @@ compinit
 export HISTFILE=$HOME/.zsh_history
 export HISTSIZE=100000         
 export SAVEHIST=100000     
-
-setopt share_history         
-setopt hist_ignore_all_dups
+   
 setopt hist_ignore_space
 setopt hist_reduce_blanks
+setopt hist_ignore_all_dups
 setopt hist_save_no_dups
-setopt inc_append_history
+setopt share_history
 setopt correct
 setopt auto_cd
 
@@ -32,11 +31,13 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 bindkey -e
-bindkey '^[[A' history-substring-search-up
-bindkey '^[[B' history-substring-search-down
+bindkey '^[[A' history-beginning-search-backward
+bindkey '^[[B' history-beginning-search-forward
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#555555"
 
-alias dotnet=.net/dotnet
 alias @='cd ~/Documents/@shortcuts/ && ls -la -F --color=auto --group-directories-first'
+
+export DOTNET_ROOT=$HOME/.dotnet
+export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 
