@@ -13,13 +13,19 @@
 ## The technology being used
 
 - A Zsh theme
+
 https://github.com/romkatv/powerlevel10k
 
+- Fish shell like syntax highlighting for Zsh.
+
+https://github.com/zsh-users/zsh-syntax-highlighting
+
 - Fish-like autosuggestions for zsh
+
 https://github.com/zsh-users/zsh-autosuggestions
 
 - 🐠 ZSH port of Fish history search (up arrow)
+
 https://github.com/zsh-users/zsh-history-substring-search
 
-- Fish shell like syntax highlighting for Zsh.
-https://github.com/zsh-users/zsh-syntax-highlighting
+
