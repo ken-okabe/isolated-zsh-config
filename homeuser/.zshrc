@@ -41,3 +41,5 @@ alias @='cd ~/Documents/@shortcuts/ && ls -la -F --color=auto --group-directorie
 export DOTNET_ROOT=$HOME/.dotnet
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 
+
+
