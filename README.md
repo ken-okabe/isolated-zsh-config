@@ -9,3 +9,17 @@
 4. To install, clone the repository and move to the directory, then run `sh ./install.sh`.
 
 5. Run `p10k configure` for [powerlevel10k](https://github.com/romkatv/powerlevel10k) themeing.
+
+## The technology being used
+
+- A Zsh theme
+https://github.com/romkatv/powerlevel10k
+
+- Fish-like autosuggestions for zsh
+https://github.com/zsh-users/zsh-autosuggestions
+
+- 🐠 ZSH port of Fish history search (up arrow)
+https://github.com/zsh-users/zsh-history-substring-search
+
+- Fish shell like syntax highlighting for Zsh.
+https://github.com/zsh-users/zsh-syntax-highlighting
